@@ -1,0 +1,72 @@
+Análisis de requerimiento.
+
+Para que la empresa de seguros  TK-U pueda realizar una cotización 
+exacta el asegurado tendrá que tener la mayoría de edad y se estará 
+aplicando un recargo según su edad también se verificara si el asegurado 
+está casado por lo que al cónyuge se le tendría que hacer un recargo 
+dependiendo su edad ya que los recargos son basado en Las edades 
+tal y como lo es del asegurado dada la situación si tuvieran hijos 
+de la misma manera se le aplicará un recargo del 20% por cada hijo 
+por lo que el único recargo que tiene que ser obligatorio será el del 
+asegurado pues ya que podría estar casado con hijos o puede no Estar 
+casado y tener hijos los recargos que se estarán realizando deberán 
+ser acumulativos durante el procedimiento de la cotización para poder 
+indicarle una cantidad de exacta al asegurado.
+
+
+Algoritmos
+1.	Pedir el nombre del asegurado
+2.	Pedir la edad del asegurado
+3.	Revisar si la edad está entre los 18 a 24 años
+4.	Sí es uno de estos tendrá un recargo del 10%
+5.	Si no, revisar si le debe de estar entre 25 a 49 años
+6.	Sí es uno de estos tendrá un recargo del 20%
+7.	Si no, revisa si la edad es 50 o mayor
+8.	Sí es uno de estos tendrá un recargo del 30%
+9.	Preguntarle al asegurado si está casado o casada
+10.	Sí índica que “sí” 
+11.	entonces preguntamos la edad del cónyuge
+12.	 Revisar si la edad está entre los 18 a 24 años
+13.	Sí es uno de estos tendrá un recargo del 10%
+14.	Si no, revisar si le debe de estar entre 25 a 49 años
+15.	Sí es uno de estos tendrá un recargo del 20%
+16.	Si no, revisa si la edad es 50 o mayor
+17.	Sí es uno de estos tendrá un recargo del 30%
+18.	Sí indica que “no”
+19.	Se le pregunta la asegurado si tiene hijos
+20.	Sí indica que “sí”
+21.	Entonces preguntamos Cuántos hijos tiene
+22.	Se aplicará un recargo del 20% por cada hijo
+23.	Sí indica que “no”
+24.	Se le dará el total de sus recargo
+25.	 Se le da su total final
+
+Segundo algoritmo
+1.	Pedir el nombre del asegurado
+2.	Pedir la edad del asegurado
+3.	Revisar si la edad >= 18 & <=24 años
+4.	Sí es uno de estos tendrá un recargo del 0.1
+5.	Si no, revisar si es >= 25 & <=49 años
+6.	Sí es uno de estos tendrá un recargo del 0.2
+7.	Si no, revisar si es >=50 
+8.	Sí es uno de estos tendrá un recargo del 0.3
+9.	Preguntarle al asegurado si está casado/a
+10.	Sí índica que “sí” 
+11.	entonces preguntamos la edad del cónyuge
+12.	Revisar si la edad >= 18 & <=24 años
+13.	 Sí es uno de estos tendrá un recargo del 0.1
+14.	Si no, revisar si es >= 25 & <=49 años
+15.	Sí es uno de estos tendrá un recargo del 0.2
+16.	Si no, revisar si es >=50 
+17.	Sí es uno de estos tendrá un recargo del 0.3
+18.	Sí indica que “no”
+19.	Se le pregunta la asegurado si tiene hijos
+20.	Sí indica que “sí”
+21.	Entonces preguntamos Cuántos hijos tiene
+22.	se aplicará un recargo del 0.2 por cada hijo
+23.	Sí indica que “no”
+24.	Se le da el total de sus recargo 
+25.	Se le da su total final 
+
+PEDRO RUBEN PÉREZ SÁNCHEZ
+CARNÉ: 22006155
